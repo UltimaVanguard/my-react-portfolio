@@ -3,8 +3,22 @@ body {
 }
 
 header {
+  width: 100%;
+  position: fixed;
+  top: 0;
   font-size: 150%;
   background-color: lightcoral;
+}
+
+img {
+  margin-top: 60px;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  font-size: 125%;
 }
 
 .navigation {

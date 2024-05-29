@@ -1,8 +1,9 @@
 import './App.css';
 import { Outlet } from 'react-router-dom';
-import Header from './components/Header'
-import Image from './components/Image'
+import Header from './components/Header';
 import Nav from './components/Nav';
+import Image from './components/Image';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </header>
         <Image />
         <Outlet />
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </>
   )
