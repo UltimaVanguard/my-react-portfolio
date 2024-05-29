@@ -6,8 +6,17 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
-  font-size: 150%;
-  background-color: lightcoral;
+  font-size: 125%;
+  background-color: crimson;
+}
+
+h1 {
+  font-size: 225%;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 300%;
 }
 
 img {
@@ -21,8 +30,28 @@ footer {
   font-size: 125%;
 }
 
-.navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
+.navbar {
+  font-size: 110%;
+  background-color: lightgray;
+}
+
+.active {
+  background-color: darkgray
+}
+
+.about-me {
+  font-size: 150%;
+  font-weight: 500;
+}
+
+.resume {
+  font-size: 150%;
+}
+
+.resume-text {
+  display: inline;
+}
+
+.resume-link {
+  display: inline;
 }
