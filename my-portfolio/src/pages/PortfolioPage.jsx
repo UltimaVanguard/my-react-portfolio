@@ -6,75 +6,63 @@ function HomePage() {
             <h2 className="text-center">My Portfolio</h2>
             <Accordion className='p-5'>
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>Accordion Item #1</Accordion.Header>
+                    <Accordion.Header>Weather Forecast App</Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                        <ul>
+                            <li>Tech Used: HTML, CSS, Bootstrap Framework, JavaScript, openweather API</li>
+                            <li>Key Functionality: User can search for a city and the current weather and the weather for the next five days will be shown to them. Local storage is used to store their last ten searches.</li>
+                            <li>Links:</li>
+                        </ul>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
-                    <Accordion.Header>Accordion Item #2</Accordion.Header>
+                    <Accordion.Header>Dynamo Tech Blog</Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                        <ul>
+                            <li>Tech Used: Handlebars, CSS, JASS CSS Framework, JavaScript, Handlebars, Express, Postgres, Sequelize, bcrypt, dotenv</li>
+                            <li>Key Functionality: Allows users to sign in/signup, create new blog posts, update their existing blog posts, and add comments to posts</li>
+                            <li>Links:</li>
+                        </ul>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
-                    <Accordion.Header>Accordion Item #3</Accordion.Header>
+                    <Accordion.Header>Employee Tracker</Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                        <ul>
+                            <li>Tech Used: JavaScript, Express, Mongoose</li>
+                            <li>Key Functionality:</li>
+                            <li>Links:</li>
+                        </ul>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
-                    <Accordion.Header>Accordion Item #4</Accordion.Header>
+                    <Accordion.Header>Social Media API</Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                        <ul>
+                            <li>Tech Used: JavaScript, Express, Mongoose</li>
+                            <li>Key Functionality:</li>
+                            <li>About:</li>
+                        </ul>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="4">
-                    <Accordion.Header>Accordion Item #5</Accordion.Header>
+                    <Accordion.Header>SMI: Movie n Games</Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                        <ul>
+                            <li>Tech Used: HTML, CSS, JavaScript, Chota CSS Framework, jquery</li>
+                            <li>Key Functionality:</li>
+                            <li>About:</li>
+                        </ul>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="5">
-                    <Accordion.Header>Accordion Item #6</Accordion.Header>
+                    <Accordion.Header>RecipeShare</Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                        <ul>
+                            <li>Tech Used: CSS, JavaScript, Handlebars, JASS CSS Framework, Cloudinary</li>
+                            <li>Key Functionality:</li>
+                            <li>About:</li>
+                        </ul>
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>

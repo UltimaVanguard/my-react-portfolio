@@ -1,5 +1,5 @@
 body {
-  background: #0E0B16;
+  background: darkgray;
   color: #E7DFDD
 }
 
@@ -8,7 +8,7 @@ header {
   position: fixed;
   top: 0;
   font-size: 125%;
-  background-color: #4717F6;
+  background-color: #D1001C;
 }
 
 h1 {
@@ -17,7 +17,12 @@ h1 {
 }
 
 h2 {
+  color: #000435;
   font-size: 300%;
+}
+
+p {
+  color: #000435;
 }
 
 img {
@@ -36,11 +41,12 @@ footer {
 }
 
 .nav-link {
-  color: #E7DFDD
+  color: #E7DFDD;
 } 
 
 .active {
-  background-color: #A239CA;
+  color: #E7DFDD !important;
+  background-color: #000435;
 }
 
 .about-me {
@@ -53,7 +59,7 @@ footer {
 
 .accordion-button {
   color: #E7DFDD;
-  background-color: #A239CA !important;
+  background-color: #D1001C !important;
 }
 
 .accordion-button:focus {
@@ -65,7 +71,7 @@ footer {
 }
 
 .accordion-body {
-  background-color: #4717F6;
+  background-color: #000435;
   color: #E7DFDD
 }
 
