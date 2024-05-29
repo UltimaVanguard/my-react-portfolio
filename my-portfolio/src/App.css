@@ -48,6 +48,27 @@ footer {
   font-weight: 500;
 }
 
+
+
+
+.accordion-button {
+  color: #E7DFDD;
+  background-color: #A239CA !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #E7DFDD;
+}
+
+.accordion-body {
+  background-color: #4717F6;
+  color: #E7DFDD
+}
+
 .resume {
   font-size: 150%;
 }
