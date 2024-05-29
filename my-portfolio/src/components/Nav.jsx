@@ -1,50 +1,23 @@
-function Nav({ currentPage, handlePageChange}) {
+import { Link } from 'react-router-dom';
+import Navbar from './UI/Navbar';
+
+export default function Nav() {
     return (
-    <ul className="navgation nav nav-tabs">
-      <li className="nav-item">
-        <a
-        // Nav link for the home page
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          // Sets link to active if it's the currentPage
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Portfolio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-        // Nav link for about page
-          href="#about"
-          onClick={() => handlePageChange('About')}
-          // Sets link to active if it's the currentPage
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          //  Sets link to active if it's the currentPage
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#resume"
-          // Sets link to active if it's the currentPage
-          onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-        >
-          Resume
-        </a>
-      </li>
-    </ul>
+        <Navbar
+            links={[
+                <Link key={1} className="nav-link text-light" to="/">
+                    Home
+                </Link>,
+                <Link key={2} className="nav-link text-light" to="/about">
+                    About Me
+                </Link>,
+                <Link key={3} className="nav-link text-light" to="/contact">
+                    Contact Info
+                </Link>,
+                <Link key={4} className="nav-link text-light" to="/resume">
+                    Resume
+                </Link>,
+            ]}
+        />
     )
 }
-
-export default Nav;
