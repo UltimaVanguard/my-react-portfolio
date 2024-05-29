@@ -1,5 +1,10 @@
 export default function HomePage() {
     return (
-        <p>This is the Home Page</p>
-    )
-}
+      <div className="m-3 p-3">
+        <h2>My Portfolio</h2>
+        <p>
+
+        </p>
+      </div>
+    );
+  }

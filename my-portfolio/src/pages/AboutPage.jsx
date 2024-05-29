@@ -1,5 +1,10 @@
-export default function AboutPage() {
+export default function About() {
     return (
-        <p>This is the About Page</p>
-    )
-}
+      <div>
+        <h2>About Me</h2>
+        <p>
+
+        </p>
+      </div>
+    );
+  }

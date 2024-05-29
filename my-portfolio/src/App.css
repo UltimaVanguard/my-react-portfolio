@@ -1,3 +1,12 @@
+body {
+  background: gray;
+}
+
+header {
+  font-size: 150%;
+  background-color: lightcoral;
+}
+
 .navigation {
   display: flex;
   flex-direction: row;
