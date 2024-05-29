@@ -1,10 +1,10 @@
 export default function About() {
     return (
-      <div>
-        <h2>About Me</h2>
-        <p>
+        <div className="m-3 p-3">
+            <h2 className="text-center">About Me</h2>
+            <p>
 
-        </p>
-      </div>
+            </p>
+        </div>
     );
   }

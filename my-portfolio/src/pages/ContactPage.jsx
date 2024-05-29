@@ -1,10 +1,10 @@
 export default function ContactPage() {
     return (
-      <div>
-        <h1>Contact Page</h1>
-        <p>
+        <div className="m-3 p-3">
+            <h2 className="text-center">Contact Me</h2>
+            <p>
 
-        </p>
-      </div>
+            </p>
+        </div>
     );
   }
