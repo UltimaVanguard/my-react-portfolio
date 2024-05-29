@@ -5,7 +5,7 @@ function HomePage() {
         <div>
             <h2 className="text-center">My Portfolio</h2>
             <Accordion className='p-5'>
-                <Accordion.Item eventKey="0" flush>
+                <Accordion.Item eventKey="0">
                     <Accordion.Header>Accordion Item #1</Accordion.Header>
                     <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -17,7 +17,7 @@ function HomePage() {
                     culpa qui officia deserunt mollit anim id est laborum.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="1" flush>
+                <Accordion.Item eventKey="1">
                     <Accordion.Header>Accordion Item #2</Accordion.Header>
                     <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -29,7 +29,7 @@ function HomePage() {
                     culpa qui officia deserunt mollit anim id est laborum.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="2" flush>
+                <Accordion.Item eventKey="2">
                     <Accordion.Header>Accordion Item #3</Accordion.Header>
                     <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -41,7 +41,7 @@ function HomePage() {
                     culpa qui officia deserunt mollit anim id est laborum.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="3" flush>
+                <Accordion.Item eventKey="3">
                     <Accordion.Header>Accordion Item #4</Accordion.Header>
                     <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -53,7 +53,7 @@ function HomePage() {
                     culpa qui officia deserunt mollit anim id est laborum.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="4" flush>
+                <Accordion.Item eventKey="4">
                     <Accordion.Header>Accordion Item #5</Accordion.Header>
                     <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -65,7 +65,7 @@ function HomePage() {
                     culpa qui officia deserunt mollit anim id est laborum.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="5" flush>
+                <Accordion.Item eventKey="5">
                     <Accordion.Header>Accordion Item #6</Accordion.Header>
                     <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

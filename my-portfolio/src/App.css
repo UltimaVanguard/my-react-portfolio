@@ -1,5 +1,6 @@
 body {
-  background: gray;
+  background: #0E0B16;
+  color: #E7DFDD
 }
 
 header {
@@ -7,7 +8,7 @@ header {
   position: fixed;
   top: 0;
   font-size: 125%;
-  background-color: crimson;
+  background-color: #4717F6;
 }
 
 h1 {
@@ -32,11 +33,14 @@ footer {
 
 .navbar {
   font-size: 110%;
-  background-color: lightgray;
 }
 
+.nav-link {
+  color: #E7DFDD
+} 
+
 .active {
-  background-color: darkgray
+  background-color: #A239CA;
 }
 
 .about-me {
