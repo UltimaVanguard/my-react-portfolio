@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import resumePdf from '../assets/eugene-resume.pdf'
 
 export default function ResumePage() {
     return (
@@ -6,13 +7,13 @@ export default function ResumePage() {
             <h2 className="text-center">My Resume</h2>
             <div className="resume text-center">
                 <p className='resume-text'>Here is a link to download my resume: </p>
-                <Link
+                <a
                     className='resume-link' 
-                    to="https://docs.google.com/document/d/1ap4su9CRI4URm57JkluCtixLdzd_pgYrP_bdqIIh42o/edit?usp=sharing" 
+                    href={resumePdf} 
                     target="_blank" 
-                    download>
+                    download="resume.pdf">
                         My Resume
-                </Link>   
+                </a>   
             </div>
         </div>
     )

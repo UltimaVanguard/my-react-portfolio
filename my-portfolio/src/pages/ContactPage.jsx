@@ -9,7 +9,8 @@ function ContactPage() {
         <div className="m-3 p-3">
             <h2 className="text-center">Contact Me</h2>
             {/* <form className="ui form" onSubmit={sendTerm}> */}
-            <form className="d-flex flex-row flex-wrap justify-content-center align-items-center">
+            <form className="d-flex flex-row flex-wrap justify-content-center align-items-center"
+                  action="https://formspree.io/f/xkndlnvo" method="POST">
                 <div className="p-3 col-12 col-lg-4 d-flex justify-content-center">
                     <label className='p-1'>Name:</label>
                     <input
@@ -24,6 +25,7 @@ function ContactPage() {
                     <input
                         type="text"
                         value={email}
+                        name="email"
                         onChange={(e) => setEmail(e.target.value)}
                         placeholder="Email"
                     />
@@ -33,6 +35,7 @@ function ContactPage() {
                     <textarea
                         value={content}
                         onChange={(e) => setContent(e.target.value)}
+                        name="message"
                         placeholder="Message"
                     ></textarea>
                 </div>
