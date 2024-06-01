@@ -32,6 +32,14 @@
   The contact me page has a form to fill out. Clicking submit will use formspree to send me a message so I can get back to you.
 
   The resume page has a link to download my resume.
+
+  ![alt text](https://github.com/UltimaVanguard/my-react-portfolio/blob/main/assets/homepage.png)
+
+  ![alt text](https://github.com/UltimaVanguard//my-react-portfolio/blob/main/assets/homepage.png)
+
+  ![alt text](https://github.com/UltimaVanguard//my-react-portfolio/blob/main/assets/homepage.png)
+
+  ![alt text](https://github.com/UltimaVanguard//my-react-portfolio/blob/main/assets/homepage.png)
   
 ## Contributions
   
