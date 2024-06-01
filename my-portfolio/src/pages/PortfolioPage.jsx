@@ -1,5 +1,7 @@
+// imports accordion from bootstrap
 import Accordion from 'react-bootstrap/Accordion';
 
+// builds accordions to hold each individual project
 function HomePage() {
     return (
         <div>

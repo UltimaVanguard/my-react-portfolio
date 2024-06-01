@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 function ContactPage() {
+    // sets state for each input of the form
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [content, setContent] =useState('');
@@ -10,6 +11,7 @@ function ContactPage() {
             <h2 className="text-center">Contact Me</h2>
             {/* <form className="ui form" onSubmit={sendTerm}> */}
             <form className="d-flex flex-row flex-wrap justify-content-center align-items-center"
+                //   sends the information to formspree so I can message back
                   action="https://formspree.io/f/xkndlnvo" method="POST">
                 <div className="p-3 col-12 col-lg-4 d-flex justify-content-center">
                     <label className='p-1'>Name:</label>

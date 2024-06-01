@@ -4,6 +4,7 @@ import Navbar from './UI/Navbar';
 export default function Nav() {
     return (
         <Navbar
+            // builds an array of links
             links={[
                 <NavLink key={1} className="nav-link" activeclassname="active" to="/">
                     About Me

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// imports my resume
 import resumePdf from '../assets/eugene-resume.pdf'
 
 export default function ResumePage() {
@@ -7,6 +7,7 @@ export default function ResumePage() {
             <h2 className="text-center">My Resume</h2>
             <div className="resume text-center">
                 <p className='resume-text'>Here is a link to download my resume: </p>
+                {/* creates link to download resume */}
                 <a
                     className='resume-link' 
                     href={resumePdf} 

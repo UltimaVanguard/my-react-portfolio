@@ -1,7 +1,8 @@
+// imports reactDOM and router
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-// import './index.css'
+// imports bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -12,6 +13,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ResumePage from './pages/ResumePage';
 
+// creates routes for what page to display
 const router = createBrowserRouter([
   {
     path: '/',
