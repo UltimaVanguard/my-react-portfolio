@@ -1,5 +1,7 @@
 // imports my resume
 import resumePdf from '../assets/eugene-resume.pdf'
+const skills = ['JavaScript ES6+', 'CSS3', 'HTML5', 'SQL', 'NoSQL', 'GitHub', 'MongoDB', 'Postgres', 
+                'Express', 'React', 'Node', 'Handlebars', 'jQuery', 'Bootstrap'];
 
 export default function ResumePage() {
     return (
@@ -15,6 +17,14 @@ export default function ResumePage() {
                     download="resume.pdf">
                         My Resume
                 </a>   
+            </div>
+            <div className='text-center'>
+                <h2 className='text-center p-3 m-3'>Technical Skills</h2>
+                <ul>
+                    {skills.map((skill) => (
+                        <li key={skill}>{skill}</li>
+                    ))}
+                </ul>
             </div>
         </div>
     )

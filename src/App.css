@@ -1,6 +1,6 @@
 body {
   background: darkgray;
-  color: #E7DFDD
+  color: #000435
 }
 
 header {
@@ -34,6 +34,7 @@ footer {
   position: fixed;
   bottom: 0;
   font-size: 125%;
+  background-color: #D1001C;
 }
 
 form {
@@ -48,6 +49,14 @@ textarea {
   width: 1200px;
   height: 300px;
   resize: none;
+}
+
+ul {
+  list-style-type: none;
+
+}
+li {
+  font-size: 125%;
 }
 
 .navbar {
